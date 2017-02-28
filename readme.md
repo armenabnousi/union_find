@@ -1,7 +1,7 @@
 #Union Find
 This is an implementation of union_find algorithm.</br>
-To compute the connected components of a network you can pass in the network as a collection of nodes with their neighbors as std::vector<std::set<std::string>>* to the function `run_connected_component`. This function returns, as function''s output argument, the pointer to and std::unordered_set where the key is the name of the smallest node in the component (alphabetically smallest name), and the value is a vector of names of all the nodes present in that component.</br>
-Todo: change std::set to a template type that will allow for accepting more efficient data structures as well.</br>
+To compute the connected components of a network you can pass in the network as a collection of nodes with their neighbors as std::vector<std::set<std::string>>* to the function `run_connected_component`. This function returns, as function's output argument, the pointer to and std::unordered_set where the key is the name of the smallest node in the component (alphabetically smallest name), and the value is a vector of names of all the nodes present in that component.</br>
+**Todo: change std::set to a template type that will allow for accepting more efficient data structures as well.**</br>
 </br>
 **Usage:**</br>
 ```c++
