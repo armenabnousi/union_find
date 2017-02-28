@@ -23,7 +23,7 @@ void UnionFind::run_connected_component(std::vector<std::set<std::string>>* clus
 			}
 			*/
 			for (auto node2 = std::next(node1); node2 != cluster.end(); node2++) {
-				//since each edge is present twice in the list, this 'if' avoid extra work
+				//since each edge is present twice in the list, this 'if' avoids extra work
 				if (node1 -> compare(*node2) < 0) {
 					std::string root2 = find(*node2);
 					/*
